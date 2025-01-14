@@ -9,12 +9,6 @@ This project analyzes user-generated content from Edmunds forums to uncover insi
 - **Natural Language Processing (NLP)**: Applies tokenization, frequency analysis, and topic modeling to understand user sentiment and key discussion points.
 - **Data Visualization**: Provides graphical insights (e.g., word clouds, frequency distributions) to better interpret the results.
 
-## Project Structure
-- **Edmunds_Analysis.ipynb**: The main notebook containing all steps, from data collection to analysis and visualization.
-- **Data**: (Optional) A folder for storing raw scraped data and processed datasets for reproducibility.
-- **Models**: (Optional) A folder for saving any machine learning models or outputs generated during analysis.
-- **Results**: Contains visualizations, reports, or summaries of the analysis.
-
 ### Detailed Workflow
 1. **Web Scraping**: Uses Selenium to navigate and extract discussions from multiple pages of the Edmunds forum.
 2. **Data Cleaning**: Implements preprocessing steps to refine the scraped text for analysis.
